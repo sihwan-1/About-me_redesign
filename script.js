@@ -39,3 +39,16 @@ function tabBoxInit() {
 }
 
 tabBoxInit();
+
+
+function Swiper_3 () {
+  var swiper = new Swiper(".swiper-3", {
+      scrollbar: {
+        el: ".swiper-box-3 .swiper-scrollbar",
+        hide: false,
+      },
+      slidesPerView: 3.2,
+      spaceBetween: 24,
+    });
+}
+Swiper_3();

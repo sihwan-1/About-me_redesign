@@ -11,6 +11,9 @@ body,ul,li,h1,h2,h3,h4,h5 {
   padding: 0;
   list-style: none;
   font-family: 'Pretendard-Regular';
+  letter-spacing: -2%;
+  overflow-x: hidden;
+  color: #333;
 }
 
 a {
@@ -199,4 +202,120 @@ header > .icon-box-1 > a {
 
 .section-2 > .main-box > .bg-btn-box > div > img {
   height: 100%;
+}
+
+/* ---------------------------------------------------------section-2 end--------------------------------------------------------- */
+
+/* ---------------------------------------------------------section-3 start--------------------------------------------------------- */
+.section-3 {
+  padding: 150px 0 200px 20px;
+}
+
+.section-3 > .txt-box-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.section-3 > .txt-box-3 > ul {
+  display: flex;
+  gap: 16px;
+}
+
+.section-3 > .txt-box-3 > ul > li {
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', serif;
+  color: #BFB8AF;
+}
+
+.section-3 > .txt-box-3 > ul > li.active {
+  color: #333;
+}
+
+.section-3 > .txt-box-3 > ul > li:first-child::after {
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: #C3B1D5;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  transform: translateY(-50%);
+}
+
+.section-3 > .content-box > .content {
+  display: flex;
+}
+
+.section-3 > .content-box > .content > .txt-3 {
+  padding-right: 140px;
+}
+
+.section-3 > .content-box > .content > .txt-3 > h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+.section-3 > .content-box > .content > .txt-3 > span {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38.4px;
+  color: #BFB8AF;
+  white-space: nowrap;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 {
+  width: 100%;
+  position: relative;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-scrollbar {
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1250px;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide {
+  max-width: 393px;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a {
+  display: block;
+  max-width: 393px;
+  background-color: #F7F4F1;
+  border-radius: 20px;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a > .img-box-3 > img {
+  border-radius: 20px 20px 0 0;
+  max-height: 420px;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a > .swiper-txt {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 23px;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a > .swiper-txt > span {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a > .swiper-txt > span:nth-child(2) {
+  font-size: 16px;
+  color: #BFB8AF;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
