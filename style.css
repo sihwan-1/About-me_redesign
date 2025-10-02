@@ -209,6 +209,7 @@ header > .icon-box-1 > a {
 /* ---------------------------------------------------------section-3 start--------------------------------------------------------- */
 .section-3 {
   padding: 150px 0 200px 20px;
+  background-color: #FCFBFA;
 }
 
 .section-3 > .txt-box-3 {
@@ -248,6 +249,10 @@ header > .icon-box-1 > a {
 }
 
 .section-3 > .content-box > .content {
+  display: none;
+}
+
+.section-3 > .content-box > .content.active {
   display: flex;
 }
 
@@ -303,8 +308,11 @@ header > .icon-box-1 > a {
   padding-top: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding-bottom: 23px;
+  text-align: center;
+  height: 185px;
 }
 
 .section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a > .swiper-txt > span {
@@ -318,4 +326,10 @@ header > .icon-box-1 > a {
   color: #BFB8AF;
   margin-bottom: 20px;
   font-weight: 400;
+}
+
+.section-3 > .content-box > .content > .swiper-box-3 .swiper-slide > a > .swiper-txt > span:last-child {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
 }
