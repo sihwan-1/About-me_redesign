@@ -66,3 +66,12 @@ function Swiper_box() {
 }
 
 Swiper_box();
+
+function Swiper_5 () {
+  var swiper = new Swiper(".swiper-5", {
+      slidesPerView: 5,
+      loop: true,
+      spaceBetween: 40,
+    });
+}
+Swiper_5();
