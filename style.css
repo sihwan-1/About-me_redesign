@@ -387,3 +387,121 @@ header > .icon-box-1 > a {
   font-weight: 700;
   font-family: 'Cormorant Garamond', serif;
 }
+
+.section-5 > .swiper-box-5  .swiper-slide > a {
+  display: block;
+  height: 349px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------section-5 end--------------------------------------------------------- */
+
+/* ---------------------------------------------------------footer start--------------------------------------------------------- */
+footer {
+  padding: 44px 138px;
+  background-color: #F2E9FB;
+}
+
+footer > .ft-fst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+footer > .ft-fst > .ft-logo {
+  width: 191px;
+}
+
+footer > .ft-fst > ul {
+  display: flex;
+  gap: 30px;
+}
+
+footer > .ft-fst > ul > li > a {
+  width: 24px;
+  display: block;
+}
+
+footer > .ft-sed {
+  margin-bottom: 44px;
+}
+
+footer > .ft-sed > ul {
+  display: flex;
+  gap: 20px;
+}
+
+footer > .ft-sed > ul > li > a {
+  display: block;
+  position: relative;
+}
+
+footer > .ft-sed > ul > li > a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 10px;
+  background-color: #BFB8AF;
+}
+
+footer > .ft-sed > ul > li:last-child > a::after {
+  display: none;
+}
+
+footer > .ft-sed > ul > li > a > span {
+  font-weight: 400px;
+}
+
+footer > .ft-sed > ul > li.this > a > span {
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  display: block;
+}
+
+footer > .ft-sed > ul > li.this > a > span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+  bottom: 0;
+  left: 0;
+}
+
+footer > .ft-trd {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+footer > .ft-trd > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer > .ft-trd > div > a {
+  background-color: #F7F4F1;
+  display: block;
+  padding: 2px 4px;
+}
+
+footer > .ft-trd > div:nth-child(5) {
+  margin-bottom: 30px;
+}
+
+footer > .ft-trd > div:nth-child(5) > span:last-child {
+  color: #BFB8AF;
+}
+
+footer > .ft-trd > .copyright {
+  color: #BFB8AF;
+}
