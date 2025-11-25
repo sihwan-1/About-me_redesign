@@ -75,3 +75,5 @@ function Swiper_5 () {
     });
 }
 Swiper_5();
+
+AOS.init();
